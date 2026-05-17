@@ -7,10 +7,10 @@
     You may also want to connect with me on LinkedIn @eyad-sharkawy :))
 -->
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007ACC&height=120&section=header" alt="header"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=32CD32&height=120&section=header" alt="header"/> 
 
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=007ACC&width=600&lines=Hello%2C+it's+Eyad+Sharkawy;Front-End+Developer+%26+Freelancer;Computer+Science+%26+AI+Student" alt="Front-End Developer"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=32CD32&width=600&lines=Hello%2C+it's+Eyad+Sharkawy;Front-End+Developer+%26+Freelancer;Computer+Science+%26+AI+Student" alt="Front-End Developer"/>
 </a>
 
 <!--
@@ -61,7 +61,7 @@ Currently studying at FCAI-CU, my work focuses heavily on the **Applied Software
 > [!IMPORTANT]  
 > <a href="YOUR_GOOGLE_DRIVE_RESUME_LINK_HERE" download>Download my resume</a>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007ACC&height=120&section=footer" alt="footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=32CD32&height=120&section=footer" alt="footer"/>
 
 <!--
      Thanks for being my guest <3
