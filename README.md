@@ -7,7 +7,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3CB371&height=120&section=header" alt="header"/> 
 
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=3CB371&width=600&lines=Hello%2C+it's+Eyad+Sharkawy;Angular+Front-End+Developer;Computers+%26+AI+Student+at+Cairo+University" alt="Front-End Developer"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=3CB371&width=600&lines=Hello%2C+I'm+Eyad+Sharkawy;Angular+Front-End+Developer;Computers+%26+AI+Student+at+Cairo+University" alt="Front-End Developer"/>
 </a>
 
 <!--
@@ -22,10 +22,10 @@
      This is the list of my skills and the tools I use daily!
 -->
 ### Main skills
-[![My Skills](https://skillicons.dev/icons?i=angular,ts,js,cpp,html,css,github,git,firebase,vercel,webstorm,clion,powershell)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=angular,ts,js,tailwind,cpp,html,css,reactivex,npm,nodejs,vite,github,git,firebase,vercel,qt,cmake,webstorm,clion,idea,linux,powershell,neovim)](https://skillicons.dev)
 
 ### Studying
-[![Learning](https://skillicons.dev/icons?i=django,python)](https://skillicons.dev)
+[![Learning](https://skillicons.dev/icons?i=java,spring,maven,postgres,postman,vitest)](https://skillicons.dev)
 
 <!--
      A little bit about my background and projects
