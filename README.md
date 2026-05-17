@@ -15,7 +15,7 @@
 -->
 
 <div>
-    <img src="./assets/about_eyad.gif" alt="About Me Terminal GIF"/>
+    <img src="./assets/terminal.gif" alt="About Me Terminal GIF"/>
 </div>
 
 <!--
@@ -32,9 +32,9 @@
 -->
 
 ### Background & Focus
-I am a Front-End Developer and freelancer specializing in modern, reactive web applications using **Angular** and **TypeScript**, alongside a strong foundation in modern **C++**. 
+I am a Front-End Developer specializing in modern, reactive web applications using **Angular** and **TypeScript**, alongside a strong foundation in modern **C++**. 
 
-Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track—building standard software applications seamlessly integrated with AI. When I'm not configuring my JetBrains/Cursor environments or working in the terminal, I'm collaborating on award-winning tech competitions and developing tools like **Omni Sync**, **Photo Smith**, and **The Phoenix Project**.
+Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track—building standard software applications seamlessly integrated with AI. When I'm not configuring my JetBrains environments or working in the terminal, I'm collaborating on award-winning tech competitions and developing tools like **Omni Sync**, **Photo Smith**, and **The Phoenix Project**.
 
 <!--
      Fast links to my socials!
@@ -56,7 +56,7 @@ Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutio
 
 ### Employer?
 > [!IMPORTANT]  
-> <a href="https://drive.google.com/file/d/1jpn01smlzCqelkClvx3zUl76_BCEKVjN/view?usp=drive_link" download>Download my resume</a>
+> <a href="https://drive.google.com/file/d/1jpn01smlzCqelkClvx3zUl76_BCEKVjN/view?usp=drive_link" target="_blank" download>Download my resume</a>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3CB371&height=120&section=footer" alt="footer"/>
 
