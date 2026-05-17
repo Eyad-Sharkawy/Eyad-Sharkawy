@@ -42,10 +42,10 @@ Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutio
 
 ### Connect with me!
 <div>
-    <a href="https://www.linkedin.com/in/eyad-sharkawy">
-        <img src="https://github.com/user-attachments/assets/880aaea6-79b9-4058-b9b4-342391ca04ea" alt="LinkedIn" width="35" height="35"/>
+    <a href="https://www.linkedin.com/in/eyad-sharkawy" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="37" height="37"/>
     </a>
-    <a href="mailto:eyad.m.sharkawy@gmail.com">
+    <a href="mailto:eyad.m.sharkawy@gmail.com" target="_blank">
         <img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Email" width="37" height="37"/>
     </a>
 </div>
