@@ -34,7 +34,7 @@
 ### Background & Focus
 I am a Front-End Developer specializing in modern, reactive web applications using **Angular** and **TypeScript**, alongside a strong foundation in modern **C++**. 
 
-Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track—building standard software applications seamlessly integrated with AI. When I'm not configuring my JetBrains environments or working in the terminal, I'm collaborating on award-winning tech competitions and developing tools like **Omni Sync**, **Photo Smith**, and **The Phoenix Project**.
+Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track—building standard software applications seamlessly integrated with AI. I've also collaborated on award-winning tech competitions and developed tools like **Omni Sync**, **Photo Smith**, and **The Phoenix Project**.
 
 <!--
      Fast links to my socials!
