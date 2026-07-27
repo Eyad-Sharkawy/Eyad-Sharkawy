@@ -22,10 +22,10 @@
      This is the list of my skills and the tools I use daily!
 -->
 ### Main skills
-[![My Skills](https://skillicons.dev/icons?i=angular,ts,js,tailwind,cpp,html,css,reactivex,npm,nodejs,vite,github,git,firebase,vercel,qt,linux,powershell)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,maven,angular,ts,js,tailwind,cpp,html,css,reactivex,postman,,npm,nodejs,vite,github,git,firebase,vercel,qt,linux,powershell)](https://skillicons.dev)
 
 ### Studying
-[![Learning](https://skillicons.dev/icons?i=java,spring,maven,postgres,postman,vitest)](https://skillicons.dev)
+[![Learning](https://skillicons.dev/icons?i=postgres,junit,vitest)](https://skillicons.dev)
 
 <!--
      A little bit about my background and projects
