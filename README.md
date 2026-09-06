@@ -56,7 +56,7 @@ Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutio
 
 ### Employer?
 > [!IMPORTANT]  
-> <a href="https://drive.google.com/file/d/14sWo0B6NLU8NCq1-WksAtKDN2U5_Tg5s/view?usp=drive_link" target="_blank" download>Download my resume</a>
+> <a href="https://drive.google.com/file/d/13BuLfFq4yK1U2Uj07gCUVFvV87zkjgR7/view?usp=sharing" target="_blank" download>Download my resume</a>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3CB371&height=120&section=footer" alt="footer"/>
 
