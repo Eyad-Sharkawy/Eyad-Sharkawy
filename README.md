@@ -7,38 +7,23 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3CB371&height=120&section=header" alt="header"/> 
 
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=3CB371&width=600&lines=Hello%2C+I%27m+Eyad+Sharkawy;Spring-boot+%26+Angular+Fullstack-End+Developer;Computers+%26+AI+Student+at+Cairo+University" alt="Front-End Developer"/>
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=3CB371&width=600&lines=Hello%2C+I%27m+Eyad+Sharkawy;Full-Stack+Software+Developer;Computers+%26+AI+Student+at+Cairo+University" alt="Full-Stack Developer"/>
 </a>
-
-<!--
-    Your own Terminal GIF can be created here -> https://www.terminalgif.com
--->
 
 <div>
     <img src="./assets/terminal.gif" alt="About Me Terminal GIF"/>
 </div>
 
-<!--
-     This is the list of my skills and the tools I use daily!
--->
 ### Main skills
-[![My Skills](https://skillicons.dev/icons?i=java,spring,hibernate,maven,angular,ts,js,postgres,docker,tailwind,cpp,html,css,reactivex,postman,npm,nodejs,vite,github,git,firebase,vercel,qt,linux,powershell)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,angular,ts,js,postgres,docker,jenkins,nginx,tailwind,cpp,react,nodejs,mongodb,html,css,reactivex,postman,github,git,firebase,linux,powershell,qt)](https://skillicons.dev)
 
 ### Studying
-[![Learning](https://skillicons.dev/icons?i=kubernetes,nginx,vitest)](https://skillicons.dev)
-
-<!--
-     A little bit about my background and projects
--->
+[![Learning](https://skillicons.dev/icons?i=kubernetes,aws,vitest)](https://skillicons.dev)
 
 ### Background & Focus
-I am a Front-End Developer specializing in modern, reactive web applications using **Angular** and **TypeScript**, alongside a strong foundation in modern **C++**. 
+I am a Full-Stack Developer specializing in enterprise and modern web applications using **Java Spring Boot** and **Angular**, alongside a strong foundation in modern **C++**. 
 
-Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track—building standard software applications seamlessly integrated with AI. I've also collaborated on award-winning tech competitions and developed tools like **Omni Sync**, **Photo Smith**, and **The Phoenix Project**.
-
-<!--
-     Fast links to my socials!
--->
+Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track—building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions. I've also collaborated on award-winning tech competitions and developed tools like **Agency OS**, **Omni Sync**, **The Phoenix Project**, and **Photo Smith**.
 
 ### Connect with me!
 <div>
@@ -50,16 +35,8 @@ Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutio
     </a>
 </div>
 
-<!--
-     Oh, hello there, recruiters!
--->
-
 ### Employer?
 > [!IMPORTANT]  
 > <a href="https://drive.google.com/file/d/1b3orbND4hagg0aqsOaBEBD4YfX76l-6X/view" target="_blank">Download my resume</a>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3CB371&height=120&section=footer" alt="footer"/>
-
-<!--
-     Thanks for being my guest <3
--->
