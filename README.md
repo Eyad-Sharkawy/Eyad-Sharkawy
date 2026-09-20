@@ -23,7 +23,7 @@
 ### Background & Focus
 I am a Full-Stack Developer specializing in enterprise and modern web applications using **Java Spring Boot** and **Angular**, alongside a strong foundation in modern **C++**. 
 
-Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track—building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions. I've also collaborated on award-winning tech competitions and developed tools like **Agency OS**, **Omni Sync**, **The Phoenix Project**, and **Photo Smith**.
+Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track-building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions. I've also collaborated on award-winning tech competitions and developed tools like **Agency OS**, **Omni Sync**, **The Phoenix Project**, and **Photo Smith**.
 
 ### Connect with me!
 <div>
