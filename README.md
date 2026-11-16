@@ -17,7 +17,7 @@
 ### Background & Focus
 I am a Full-Stack Developer specializing in enterprise and modern web applications using **Java Spring Boot** and **Angular**, alongside a strong foundation in modern **C++**.
 
-Currently studying at **FCAI-CU**, I focus heavily on the **Applied Software Solutions** track—building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions, while actively contributing to open-source fintech ecosystems like **Apache Fineract** and **Mifos**. I've also collaborated on award-winning tech competitions and developed tools like **[Agency OS](https://github.com/Agnecy-OS)**, **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)**, **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)**, and **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)**.
+Currently studying at **FCAI-CU**, I focus heavily on the **Applied Software Solutions** track—building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions, while actively contributing to open-source fintech ecosystems like **[Apache Fineract](https://github.com/apache/fineract)** and **[Mifos](https://github.com/openMF/web-app)**. I've also collaborated on award-winning tech competitions and developed tools like **[Agency OS](https://github.com/Agnecy-OS)**, **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)**, **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)**, and **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)**.
 
 ### Open Source Contributions
 
