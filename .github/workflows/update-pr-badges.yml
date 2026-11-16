@@ -1,0 +1,45 @@
+name: Update Open Source PR Badges
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch: # Allows manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Fetch merged PR counts and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          FINERACT_COUNT=$(gh api -X GET search/issues -f q="repo:apache/fineract author:Eyad-Sharkawy is:pr is:merged" --jq '.total_count')
+          MIFOS_COUNT=$(gh api -X GET search/issues -f q="org:openMF author:Eyad-Sharkawy is:pr is:merged" --jq '.total_count')
+
+          python3 -c "
+          import re
+
+          with open('README.md', 'r') as f:
+              content = f.read()
+
+          fineract_badge = f'<!-- FINERACT-BADGE:START -->\n[![Apache Fineract PRs](https://img.shields.io/badge/{${FINERACT_COUNT}}%20PRs%20Merged-Apache%20Fineract-D8B4FE?style=for-the-badge&logo=github&logoColor=18181B&labelColor=D8B4FE&color=18181B)](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)\n<!-- FINERACT-BADGE:END -->'
+          mifos_badge = f'<!-- MIFOS-BADGE:START -->\n[![Mifos PRs](https://img.shields.io/badge/{${MIFOS_COUNT}}%20PRs%20Merged-Mifos-D8B4FE?style=for-the-badge&logo=github&logoColor=18181B&labelColor=D8B4FE&color=18181B)](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)\n<!-- MIFOS-BADGE:END -->'
+
+          content = re.sub(r'<!-- FINERACT-BADGE:START -->.*?<!-- FINERACT-BADGE:END -->', fineract_badge, content, flags=re.DOTALL)
+          content = re.sub(r'<!-- MIFOS-BADGE:START -->.*?<!-- MIFOS-BADGE:END -->', mifos_badge, content, flags=re.DOTALL)
+
+          with open('README.md', 'w') as f:
+              f.write(content)
+          "
+
+      - name: Commit updated README if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "chore: update open source PR counts" && git push)
