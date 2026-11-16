@@ -27,12 +27,8 @@ Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutio
 
 ### Open Source Contributions
 
-<!-- FINERACT-BADGE:START -->
-[![Apache Fineract PRs](https://img.shields.io/badge/3%20PRs%20Merged-Apache%20Fineract-D8B4FE?style=for-the-badge&logo=github&logoColor=18181B&labelColor=D8B4FE&color=18181B)](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
-<!-- FINERACT-BADGE:END -->
-<!-- MIFOS-BADGE:START -->
-[![Mifos PRs](https://img.shields.io/badge/1%20PR%20Merged-Mifos-D8B4FE?style=for-the-badge&logo=github&logoColor=18181B&labelColor=D8B4FE&color=18181B)](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
-<!-- MIFOS-BADGE:END -->
+[![Apache Fineract PRs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3Aapache%2Ffineract%2Bauthor%3AEyad-Sharkawy%2Bis%3Apr%2Bis%3Amerged&query=%24.total_count&suffix=%20PRs%20Merged&label=Apache%20Fineract&style=for-the-badge&logo=github&logoColor=18181B&labelColor=18181B&color=D8B4FE)](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
+[![Mifos PRs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dorg%3AopenMF%2Bauthor%3AEyad-Sharkawy%2Bis%3Apr%2Bis%3Amerged&query=%24.total_count&suffix=%20PRs%20Merged&label=Mifos&style=for-the-badge&logo=github&logoColor=18181B&labelColor=18181B&color=D8B4FE)](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
 
 ### Connect with me!
 <div>
