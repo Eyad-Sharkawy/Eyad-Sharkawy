@@ -25,6 +25,15 @@ I am a Full-Stack Developer specializing in enterprise and modern web applicatio
 
 Currently studying at FCAI-CU, I focus heavily on the **Applied Software Solutions** track-building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions. I've also collaborated on award-winning tech competitions and developed tools like **Agency OS**, **Omni Sync**, **The Phoenix Project**, and **Photo Smith**.
 
+### Open Source Contributions
+
+<!-- FINERACT-BADGE:START -->
+[![Apache Fineract PRs](https://img.shields.io/badge/3%20PRs%20Merged-Apache%20Fineract-D8B4FE?style=for-the-badge&logo=github&logoColor=18181B&labelColor=D8B4FE&color=18181B)](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
+<!-- FINERACT-BADGE:END -->
+<!-- MIFOS-BADGE:START -->
+[![Mifos PRs](https://img.shields.io/badge/1%20PR%20Merged-Mifos-D8B4FE?style=for-the-badge&logo=github&logoColor=18181B&labelColor=D8B4FE&color=18181B)](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
+<!-- MIFOS-BADGE:END -->
+
 ### Connect with me!
 <div>
     <a href="https://www.linkedin.com/in/eyad-sharkawy" target="_blank">
