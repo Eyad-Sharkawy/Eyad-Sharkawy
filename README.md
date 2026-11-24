@@ -32,7 +32,7 @@
 
 I am a Software Developer specializing primarily in enterprise backend architectures with **Java Spring Boot**, paired with modern frontend engineering in **Angular**, alongside a strong foundation in modern **C++**.
 
-Based in **Cairo, Egypt**, I actively contribute to open-source fintech ecosystems like **[Apache Fineract](https://github.com/apache/fineract)** (backend Java Spring Boot) and **[Mifos](https://github.com/openMF/web-app)** (enterprise Angular frontend), while engineering robust, containerized systems like **[Agency OS](https://github.com/Agnecy-OS)**, **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)**, **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)**, and **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)**.
+Based in **Cairo, Egypt**, I actively contribute to open-source fintech ecosystems like **[Apache Fineract](https://github.com/apache/fineract)** (backend Java Spring Boot) and **[Mifos](https://github.com/openMF/web-app)** (enterprise Angular frontend), engineering robust, containerized systems with clean, scalable design patterns.
 
 ---
 
@@ -48,15 +48,6 @@ Based in **Cairo, Egypt**, I actively contribute to open-source fintech ecosyste
 
 - **[Apache Fineract](https://github.com/apache/fineract)** — An open-source, enterprise system for core banking as an OS. Contributing backend enhancements, bug fixes, and architectural optimizations in **Java Spring Boot**. [View Merged Pull Requests →](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
 - **[Mifos Initiative](https://github.com/openMF/web-app)** — Global financial inclusion initiative powering microfinance institutions worldwide. Shipping enterprise **Angular** & **TypeScript** frontend features. [View Merged Pull Requests →](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
-
----
-
-### Highlighted Systems & Projects
-
-- **[Agency OS](https://github.com/Agnecy-OS)** — Comprehensive enterprise management platform built for modern digital agencies with multi-tenant architecture.
-- **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)** — High-performance synchronization engine engineered with modern C++ and distributed design principles.
-- **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)** — Collaborative full-stack ecosystem platform leveraging modern cloud and container workflows.
-- **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)** — Image processing and manipulation desktop suite developed with clean software design patterns.
 
 ---
 

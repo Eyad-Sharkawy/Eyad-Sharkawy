@@ -7,7 +7,7 @@ from common import CYAN, FG, GREEN, MUTED, ORANGE, PURPLE, esc, load, window, wr
 W, H = 860, 470
 IX, IY = 11.2, 4.8   # screen vector for +1 week
 JX, JY = -11.2, 6.0  # screen vector for +1 weekday
-HMAX = 105
+HMAX = 80
 INSET = 0.1
 
 TOPS = ["#1f2630", "#1a6b3c", "#1f9a4b", "#33c25a", "#5ae27a", "#9dffbe"]
@@ -28,7 +28,7 @@ def main():
     peak = max(1, max(d["count"] for d in days))
 
     ox = (W - (cols + 7) * IX) / 2 + 7 * IX - 10
-    oy = 92
+    oy = 135
 
     def P(i, j, h=0.0):
         return ox + i * IX + j * JX, oy + i * IY + j * JY - h
@@ -77,11 +77,19 @@ def main():
     if best_top:
         (bx, by), bd = best_top
         label = f"{bd['count']} · {date.fromisoformat(bd['date']).strftime('%b %d')}"
+        # If beacon is in right half of skyline, place label to the left of the beacon to avoid colliding with top-right stats
+        if bx > W * 0.52:
+            lbl_anchor = "end"
+            lbl_x = bx - 14.0
+        else:
+            lbl_anchor = "start"
+            lbl_x = bx + 14.0
+
         beacon = f"""<g class="fin" style="animation-delay:3.2s">
   <rect x="{bx - 1.5:.1f}" y="{by - 46:.1f}" width="3" height="46" fill="url(#beam)"/>
   <circle cx="{bx:.1f}" cy="{by - 48:.1f}" r="4" fill="{ORANGE}"><animate attributeName="r" values="3;6;3" dur="1.6s" repeatCount="indefinite"/></circle>
   <circle cx="{bx:.1f}" cy="{by - 48:.1f}" r="4" fill="none" stroke="{ORANGE}"><animate attributeName="r" values="4;16" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="1.6s" repeatCount="indefinite"/></circle>
-  <text x="{bx + 12:.1f}" y="{by - 52:.1f}" font-size="11" fill="{ORANGE}">peak {esc(label)}</text>
+  <text x="{lbl_x:.1f}" y="{by - 52:.1f}" font-size="11" fill="{ORANGE}" text-anchor="{lbl_anchor}">peak {esc(label)}</text>
 </g>"""
 
     rng = f"{date.fromisoformat(st['range'][0]).strftime('%b %Y')} → {date.fromisoformat(st['range'][1]).strftime('%b %Y')}"
@@ -115,12 +123,15 @@ def main():
 </style>"""
     body = f"""
 <ellipse cx="{gx:.0f}" cy="{gy:.0f}" rx="380" ry="170" fill="url(#glow)"/>
-<text x="36" y="62" font-size="13" fill="{FG}"><tspan fill="{GREEN}">$</tspan> ./skyline --user {esc(data['username'])} --3d</text>
 {''.join(out)}
 {''.join(months)}
 {beacon}
 {stats_tr}
 {stats_bl}
+<g class="fin">
+  <rect x="28" y="38" width="316" height="26" rx="6" fill="#0d1117" fill-opacity="0.88" stroke="#30363d" stroke-width="0.8"/>
+  <text x="38" y="55" font-size="12" fill="{FG}"><tspan fill="{GREEN}">$</tspan> ./skyline --user {esc(data['username'])} --3d</text>
+</g>
 """
     write_svg("contrib-skyline.svg", window(W, H, "skyline.sh", body, defs))
 
