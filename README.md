@@ -6,14 +6,14 @@
 
 <div align="center">
 
-<img src="./header.svg" width="860" alt="Eyad Sharkawy — Java Spring Boot & Angular Software Developer" />
+<img src="./header.svg" width="860" alt="Eyad Sharkawy — Java & Angular Software Developer" />
 
 <br><br>
 
 <table>
   <tr>
     <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="ASCII portrait of Eyad Sharkawy" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch card: Java Spring Boot, Angular, live GitHub stats" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch card: Java, Angular, live GitHub stats" /></td>
   </tr>
 </table>
 
@@ -30,9 +30,9 @@
 
 ### Background & Focus
 
-I am a Software Developer specializing primarily in enterprise backend architectures with **Java Spring Boot**, paired with modern frontend engineering in **Angular**, alongside a strong foundation in modern **C++**.
+I'm a software developer based in Cairo, Egypt. My main focus is backend development with **Java Spring Boot**, along with **Angular** on the frontend and **C++** for systems.
 
-Based in **Cairo, Egypt**, I actively contribute to open-source fintech ecosystems like **[Apache Fineract](https://github.com/apache/fineract)** (backend Java Spring Boot) and **[Mifos](https://github.com/openMF/web-app)** (enterprise Angular frontend), engineering robust, containerized systems with clean, scalable design patterns.
+I contribute to open-source projects including **[Apache Fineract](https://github.com/apache/fineract)** (backend Java) and **[Mifos](https://github.com/openMF/web-app)** (Angular client), and build personal tools like **[Agency OS](https://github.com/Agnecy-OS)** and **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)**.
 
 ---
 
@@ -46,8 +46,8 @@ Based in **Cairo, Egypt**, I actively contribute to open-source fintech ecosyste
 
 </div>
 
-- **[Apache Fineract](https://github.com/apache/fineract)** — An open-source, enterprise system for core banking as an OS. Contributing backend enhancements, bug fixes, and architectural optimizations in **Java Spring Boot**. [View Merged Pull Requests →](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
-- **[Mifos Initiative](https://github.com/openMF/web-app)** — Global financial inclusion initiative powering microfinance institutions worldwide. Shipping enterprise **Angular** & **TypeScript** frontend features. [View Merged Pull Requests →](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
+- **[Apache Fineract](https://github.com/apache/fineract)** — Core banking platform. Backend features and bug fixes in Java Spring Boot. [View Merged PRs →](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
+- **[Mifos Initiative](https://github.com/openMF/web-app)** — Financial inclusion platform. Frontend work on the Angular web client. [View Merged PRs →](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
 
 ---
 

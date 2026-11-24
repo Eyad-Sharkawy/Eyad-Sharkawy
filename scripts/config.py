@@ -8,28 +8,27 @@ PROMPT_HOST = "github"
 # Left out of the language bar
 HIDE_LANGS = ["Jupyter Notebook", "CMake", "SCSS", "CSS", "HTML"]
 
-# Cycled by the typing animation in header.svg (Java Spring Boot #1, Angular #2)
+# Cycled by the typing animation in header.svg (simple & direct, no buzzwords)
 ROLES = [
-    "Java Spring Boot Developer",
-    "Angular Frontend Engineer",
+    "Java & Spring Boot Developer",
+    "Angular Frontend Developer",
     "Open Source @ Apache Fineract & Mifos",
-    "Enterprise Systems & Microservices",
-    "Modern C++ & Distributed Architectures",
+    "C++ & Systems Programming",
 ]
 
-TAGLINE = "Cairo, EG  ·  Java Spring Boot & Angular Specialist"
+TAGLINE = "Cairo, EG  ·  Java, Angular & C++"
 
 # neofetch-style rows on info-card.svg. "{...}" placeholders are filled from live data.
 INFO_ROWS = [
-    ("Role", "Java Spring Boot & Angular Developer"),
-    ("Primary", "Java 21 · Spring Boot 3 · Microservices"),
-    ("Secondary", "Angular · TypeScript · Modern Web"),
-    ("OSS", "Apache Fineract (Java) · Mifos (Angular)"),
+    ("Role", "Software Developer"),
+    ("Backend", "Java · Spring Boot"),
+    ("Frontend", "Angular · TypeScript"),
+    ("Systems", "C++"),
+    ("OSS", "Apache Fineract · Mifos"),
     ("Uptime", "{uptime} on GitHub"),
     ("Langs", "{top_langs}"),
-    ("Backend", "Spring Boot · REST APIs · Modern C++"),
-    ("Frontend", "Angular · RxJS · TypeScript · Tailwind"),
-    ("Infra", "Docker · PostgreSQL · Nginx · Jenkins"),
+    ("Databases", "PostgreSQL"),
+    ("Tools", "Docker · Git · Linux"),
     ("Repos", "{public_repos} public  ·  {stars} stars"),
     ("Contribs", "{total} in the last year"),
     ("Projects", "Agency OS · Omni Sync · Phoenix"),
@@ -45,11 +44,10 @@ REGIONS = [
     ("Cloud & OSS Hub", 52.36, 4.90),
 ]
 
-# tech-sphere.svg: category -> labels (Java Spring Boot #1, Angular #2)
+# tech-sphere.svg: category -> labels
 TECH = {
-    "backend": ["Java", "Spring Boot", "Microservices", "REST APIs", "Spring Security"],
-    "frontend": ["Angular", "TypeScript", "RxJS", "TailwindCSS", "JavaScript"],
-    "systems": ["Modern C++", "PostgreSQL", "Docker", "Linux"],
-    "infra": ["Nginx", "Jenkins", "Git", "Postman", "Kubernetes"],
-    "cloud": ["AWS", "Vitest", "Redis", "Firebase"],
+    "backend": ["Java", "Spring Boot", "REST APIs", "PostgreSQL"],
+    "frontend": ["Angular", "TypeScript", "TailwindCSS", "JavaScript"],
+    "systems": ["C++", "Docker", "Linux", "Git"],
+    "tools": ["Postman", "Kubernetes", "Vitest", "AWS"],
 }
