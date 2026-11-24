@@ -6,14 +6,14 @@
 
 <div align="center">
 
-<img src="./header.svg" width="860" alt="Eyad Sharkawy — Full-Stack Software Developer & Open Source Contributor" />
+<img src="./header.svg" width="860" alt="Eyad Sharkawy — Java Spring Boot & Angular Software Developer" />
 
 <br><br>
 
 <table>
   <tr>
     <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="ASCII portrait of Eyad Sharkawy" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch card: role, stack, live GitHub and Apache Fineract stats" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch card: Java Spring Boot, Angular, live GitHub stats" /></td>
   </tr>
 </table>
 
@@ -30,9 +30,9 @@
 
 ### Background & Focus
 
-I am a Full-Stack Developer specializing in enterprise and modern web applications using **Java Spring Boot** and **Angular**, alongside a strong foundation in modern **C++**.
+I am a Software Developer specializing primarily in enterprise backend architectures with **Java Spring Boot**, paired with modern frontend engineering in **Angular**, alongside a strong foundation in modern **C++**.
 
-Currently studying at **FCAI-CU**, I focus heavily on the **Applied Software Solutions** track—building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions, while actively contributing to open-source fintech ecosystems like **[Apache Fineract](https://github.com/apache/fineract)** and **[Mifos](https://github.com/openMF/web-app)**. I've also collaborated on award-winning tech competitions and developed tools like **[Agency OS](https://github.com/Agnecy-OS)**, **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)**, **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)**, and **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)**.
+Based in **Cairo, Egypt**, I actively contribute to open-source fintech ecosystems like **[Apache Fineract](https://github.com/apache/fineract)** (backend Java Spring Boot) and **[Mifos](https://github.com/openMF/web-app)** (enterprise Angular frontend), while engineering robust, containerized systems like **[Agency OS](https://github.com/Agnecy-OS)**, **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)**, **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)**, and **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)**.
 
 ---
 

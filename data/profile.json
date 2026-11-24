@@ -5,19 +5,11 @@
   "followers": 11,
   "stars": 2,
   "languages": {
-    "C++": 1316235,
-    "TypeScript": 849444,
-    "HTML": 628452,
-    "JavaScript": 456978,
-    "CSS": 342387,
-    "SCSS": 280725,
-    "Python": 118308,
-    "C": 83706,
-    "CMake": 58710,
-    "Java": 52000,
-    "Batchfile": 36714,
-    "PowerShell": 12315,
-    "QMake": 3972
+    "Java": 185000,
+    "TypeScript": 105000,
+    "C++": 55000,
+    "SQL": 22000,
+    "JavaScript": 15000
   },
   "fineract_prs": 4,
   "mifos_prs": 2

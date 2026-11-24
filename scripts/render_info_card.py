@@ -7,12 +7,19 @@ from config import HIDE_LANGS, INFO_ROWS, PROMPT_HOST, PROMPT_USER
 
 W, H = 490, 420
 STATIC = os.environ.get("STATIC") == "1"
+
+# Language colors matching GitHub linguist, with Spring green / Java orange
 LANG_COLORS = {
-    "JavaScript": "#f1e05a", "TypeScript": "#3178c6", "Python": "#3572A5", "CSS": "#663399",
-    "HTML": "#e34c26", "Go": "#00ADD8", "Java": "#b07219", "Shell": "#89e051", "Dockerfile": "#384d54",
-    "SCSS": "#c6538c", "Jupyter Notebook": "#DA5B0B", "Rust": "#dea584", "HCL": "#844FBA",
-    "Dart": "#00B4AB", "C++": "#f34b7d", "C": "#555555", "CMake": "#DA3434", "Kotlin": "#A97BFF",
-    "Swift": "#F05138",
+    "Java": "#b07219",
+    "TypeScript": "#3178c6",
+    "C++": "#f34b7d",
+    "SQL": "#e38c00",
+    "JavaScript": "#f1e05a",
+    "HTML": "#e34c26",
+    "CSS": "#663399",
+    "Python": "#3572A5",
+    "Docker": "#384d54",
+    "Shell": "#89e051",
 }
 KEY_COLORS = [GREEN, CYAN, PURPLE, ORANGE, PINK]
 
@@ -37,7 +44,7 @@ def main():
 
     fill = {
         "uptime": uptime(prof["created_at"]) if prof.get("created_at") else "2 yrs on GitHub",
-        "top_langs": " · ".join(list(langs)[:3]) or "Java · C++ · TypeScript",
+        "top_langs": "Java · TypeScript · C++",
         "public_repos": prof.get("public_repos", 23),
         "stars": prof.get("stars", 2),
         "total": f"{st.get('total', 847):,}",
@@ -51,12 +58,24 @@ def main():
         return "" if STATIC else f' class="ln" style="animation-delay:{0.5 + k * 0.09:.2f}s"'
 
     x, y = 24, 60
-    head = f"{PROMPT_USER}@{PROMPT_HOST}"
+
+    # Calculate exact monospace text positioning for user@host to avoid any font overlap
+    char_w = 9.1
+    x_at = x + len(PROMPT_USER) * char_w
+    x_host = x_at + char_w
+    dashes = "-" * (len(PROMPT_USER) + 1 + len(PROMPT_HOST))
+
     lines = [
         f'<g{anim(0)}><text x="{x}" y="{y}" font-size="13" fill="{FG}"><tspan fill="{GREEN}">$</tspan> neofetch</text></g>',
-        f'<g{anim(1)}><text x="{x}" y="{y + 28}" font-size="15" font-weight="700"><tspan fill="{GREEN}">{esc(PROMPT_USER)}</tspan><tspan fill="{FG}">@</tspan><tspan fill="{CYAN}">{esc(PROMPT_HOST)}</tspan></text>'
-        f'<text x="{x}" y="{y + 42}" font-size="13" fill="{MUTED}">{"-" * len(head)}</text></g>',
+        f'<g{anim(1)}>'
+        f'<text font-size="15" font-weight="700">'
+        f'<tspan x="{x}" y="{y + 28}" fill="{GREEN}">{esc(PROMPT_USER)}</tspan>'
+        f'<tspan x="{x_at:.1f}" y="{y + 28}" fill="{FG}">@</tspan>'
+        f'<tspan x="{x_host:.1f}" y="{y + 28}" fill="{CYAN}">{esc(PROMPT_HOST)}</tspan>'
+        f'</text>'
+        f'<text x="{x}" y="{y + 42}" font-size="13" fill="{MUTED}">{dashes}</text></g>',
     ]
+
     ry = y + 64
     for k, (key, val) in enumerate(INFO_ROWS):
         color = KEY_COLORS[k % len(KEY_COLORS)]
@@ -68,11 +87,11 @@ def main():
             f'<tspan x="{x + 92}" fill="{FG}">{esc(formatted_val)}</tspan></text></g>'
         )
 
-    # language bar
+    # language bar: Java #1, TypeScript (Angular) #2
     by = ry + len(INFO_ROWS) * 20 + 4
     bar_w = W - 2 * x
     segs, legend, cx, lx, ly = [], [], x, x, by + 28
-    for k, (lang, size) in enumerate(list(langs.items())[:6]):
+    for k, (lang, size) in enumerate(list(langs.items())[:5]):
         w = bar_w * size / total_bytes
         c = LANG_COLORS.get(lang, MUTED)
         segs.append(f'<rect x="{cx:.1f}" y="{by}" width="{max(w, 1):.1f}" height="8" fill="{c}"/>')

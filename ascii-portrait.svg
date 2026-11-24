@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="370" height="420" viewBox="0 0 370 420" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
 <defs>
 <linearGradient id="ink" x1="0" y1="0" x2="370" y2="420" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
-  <stop offset="0" stop-color="#39d353"/><stop offset="0.5" stop-color="#58d5e8"/><stop offset="1" stop-color="#bc8cff"/>
-  <animateTransform attributeName="gradientTransform" type="translate" values="0 0;370 420;0 0" begin="2.97s" dur="10s" repeatCount="indefinite"/>
+  <stop offset="0" stop-color="#39d353"/><stop offset="0.5" stop-color="#69f0a0"/><stop offset="1" stop-color="#26a641"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="0 0;370 420;0 0" begin="2.97s" dur="8s" repeatCount="indefinite"/>
 </linearGradient></defs>
 <rect x="0.5" y="0.5" width="369" height="419" rx="10" fill="#0d1117" stroke="#30363d"/>
 <path d="M0.5 32 V10.5 a10 10 0 0 1 10 -10 h349 a10 10 0 0 1 10 10 V32 Z" fill="#161b22"/>

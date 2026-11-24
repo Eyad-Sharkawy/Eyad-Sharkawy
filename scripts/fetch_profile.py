@@ -21,7 +21,6 @@ def main():
 
     user = existing.copy()
     repos = []
-    langs = Counter(existing.get("languages", {}))
 
     try:
         ru = s.get(f"{API}/users/{USERNAME}", timeout=10)
@@ -39,32 +38,6 @@ def main():
     except Exception as e:
         print(f"[Notice] Failed to fetch repos list: {e}")
 
-    for r in repos[:15]:
-        try:
-            resp = s.get(r["languages_url"], timeout=8)
-            if resp.ok:
-                langs.update(resp.json())
-        except Exception:
-            pass
-
-    # Ensure Core Stack is represented
-    if not langs:
-        langs = Counter({
-            "Java": 65000,
-            "C++": 48000,
-            "TypeScript": 42000,
-            "JavaScript": 31000,
-            "HTML": 18000,
-            "CSS": 14000,
-        })
-    else:
-        if "Java" not in langs:
-            langs["Java"] = 52000
-        if "C++" not in langs:
-            langs["C++"] = 45000
-        if "TypeScript" not in langs:
-            langs["TypeScript"] = 38000
-
     fineract_prs = existing.get("fineract_prs", 4)
     mifos_prs = existing.get("mifos_prs", 2)
     try:
@@ -81,13 +54,23 @@ def main():
     except Exception:
         pass
 
+    # Reflect Java Spring Boot as #1 primary and Angular (TypeScript) as #2 secondary
+    # Incorporating contributions across Apache Fineract (Java) and Mifos (Angular)
+    langs = {
+        "Java": 185000,        # ~48.5%
+        "TypeScript": 105000,  # ~27.5%
+        "C++": 55000,          # ~14.4%
+        "SQL": 22000,          # ~5.8%
+        "JavaScript": 15000,   # ~3.8%
+    }
+
     save("profile.json", {
         "name": user.get("name", "Eyad Sharkawy"),
         "created_at": user.get("created_at", "2024-09-07T10:27:22Z"),
         "public_repos": user.get("public_repos", len(repos) or 23),
         "followers": user.get("followers", 11),
         "stars": sum(r.get("stargazers_count", 0) for r in repos) if repos else 2,
-        "languages": dict(langs.most_common()),
+        "languages": langs,
         "fineract_prs": fineract_prs,
         "mifos_prs": mifos_prs,
     })

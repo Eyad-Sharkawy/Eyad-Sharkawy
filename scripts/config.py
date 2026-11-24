@@ -6,32 +6,32 @@ PROMPT_USER = "eyad"
 PROMPT_HOST = "github"
 
 # Left out of the language bar
-HIDE_LANGS = ["Jupyter Notebook", "CMake"]
+HIDE_LANGS = ["Jupyter Notebook", "CMake", "SCSS", "CSS", "HTML"]
 
-# Cycled by the typing animation in header.svg
+# Cycled by the typing animation in header.svg (Java Spring Boot #1, Angular #2)
 ROLES = [
-    "Full-Stack Software Developer",
+    "Java Spring Boot Developer",
+    "Angular Frontend Engineer",
     "Open Source @ Apache Fineract & Mifos",
-    "Java Spring Boot & Angular Specialist",
-    "Applied Software Solutions @ FCAI-CU",
-    "Modern C++ & Distributed Systems",
+    "Enterprise Systems & Microservices",
+    "Modern C++ & Distributed Architectures",
 ]
 
-TAGLINE = "Cairo, EG  ·  Java, Angular, C++ & Open Source Fintech Systems"
+TAGLINE = "Cairo, EG  ·  Java Spring Boot & Angular Specialist"
 
 # neofetch-style rows on info-card.svg. "{...}" placeholders are filled from live data.
 INFO_ROWS = [
-    ("Role", "Full-Stack Software Developer"),
-    ("Track", "Applied Software Solutions @ FCAI-CU"),
-    ("OSS", "Apache Fineract · Mifos Initiative"),
+    ("Role", "Java Spring Boot & Angular Developer"),
+    ("Primary", "Java 21 · Spring Boot 3 · Microservices"),
+    ("Secondary", "Angular · TypeScript · Modern Web"),
+    ("OSS", "Apache Fineract (Java) · Mifos (Angular)"),
     ("Uptime", "{uptime} on GitHub"),
     ("Langs", "{top_langs}"),
-    ("Backend", "Java · Spring Boot · Modern C++"),
-    ("Frontend", "Angular · TypeScript · Tailwind"),
+    ("Backend", "Spring Boot · REST APIs · Modern C++"),
+    ("Frontend", "Angular · RxJS · TypeScript · Tailwind"),
     ("Infra", "Docker · PostgreSQL · Nginx · Jenkins"),
     ("Repos", "{public_repos} public  ·  {stars} stars"),
     ("Contribs", "{total} in the last year"),
-    ("Streak", "{current_streak}d current  ·  {longest_streak}d best"),
     ("Projects", "Agency OS · Omni Sync · Phoenix"),
 ]
 
@@ -45,11 +45,11 @@ REGIONS = [
     ("Cloud & OSS Hub", 52.36, 4.90),
 ]
 
-# tech-sphere.svg: category -> labels (each category gets its own colour)
+# tech-sphere.svg: category -> labels (Java Spring Boot #1, Angular #2)
 TECH = {
-    "languages": ["Java", "TypeScript", "C++", "JavaScript", "Python"],
-    "frontend": ["Angular", "Tailwind", "HTML5", "CSS3", "React"],
-    "backend": ["Spring Boot", "REST APIs", "Microservices", "Postman"],
-    "infra": ["Docker", "PostgreSQL", "Nginx", "Jenkins", "Git"],
-    "tools": ["Kubernetes", "Linux", "AWS", "Vitest", "Firebase"],
+    "backend": ["Java", "Spring Boot", "Microservices", "REST APIs", "Spring Security"],
+    "frontend": ["Angular", "TypeScript", "RxJS", "TailwindCSS", "JavaScript"],
+    "systems": ["Modern C++", "PostgreSQL", "Docker", "Linux"],
+    "infra": ["Nginx", "Jenkins", "Git", "Postman", "Kubernetes"],
+    "cloud": ["AWS", "Vitest", "Redis", "Firebase"],
 }

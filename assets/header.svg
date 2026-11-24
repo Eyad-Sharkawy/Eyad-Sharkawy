@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="210" viewBox="0 0 860 210" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
 <defs>
 <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-  <stop offset="0" stop-color="#39d353"/><stop offset="0.5" stop-color="#58d5e8"/><stop offset="1" stop-color="#bc8cff"/>
-  <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+  <stop offset="0" stop-color="#39d353"/>
+  <stop offset="50%" stop-color="#69f0a0"/>
+  <stop offset="100%" stop-color="#39d353"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0;0.5 0;-0.5 0" dur="5s" repeatCount="indefinite"/>
 </linearGradient>
-<linearGradient id="nameGradStatic" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0" stop-color="#39d353"/><stop offset="0.5" stop-color="#58d5e8"/><stop offset="1" stop-color="#bc8cff"/>
-</linearGradient>
-<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="5" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.05"/></pattern>
 <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#39d353" stop-opacity="0"/><stop offset="1" stop-color="#39d353" stop-opacity="0.08"/></linearGradient>
 <clipPath id="inner"><rect x="1" y="33" width="858" height="176" rx="9"/></clipPath>
@@ -37,42 +39,42 @@
   <text x="40" y="148" font-size="16" fill="#8b949e">&gt;</text>
 </g>
 <g class="fade" style="animation-delay:1.6s"><clipPath id="r0"><rect x="60" y="132" width="0" height="22">
-<animate attributeName="width" values="0.0;278.4;278.4;0.0;0.0" keyTimes="0.0000;0.0638;0.1560;0.1860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
-<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="278.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#r0)">Full-Stack Software Developer</text>
+<animate attributeName="width" values="0.0;249.6;249.6;0.0;0.0" keyTimes="0.0000;0.0572;0.1560;0.1860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="249.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#r0)">Java Spring Boot Developer</text>
 <rect x="60" y="134" width="9" height="18" fill="#39d353" opacity="0">
-<animate attributeName="x" values="60.0;338.4;338.4;60.0;60.0" keyTimes="0.0000;0.0638;0.1560;0.1860;1.0000" dur="25.0s" repeatCount="indefinite"/>
+<animate attributeName="x" values="60.0;309.6;309.6;60.0;60.0" keyTimes="0.0000;0.0572;0.1560;0.1860;1.0000" dur="25.0s" repeatCount="indefinite"/>
 <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0000;0.1860;0.1861;1" dur="25.0s" repeatCount="indefinite" calcMode="discrete"/>
 </rect>
 <clipPath id="r1"><rect x="60" y="132" width="0" height="22">
-<animate attributeName="width" values="0.0;0.0;355.2;355.2;0.0;0.0" keyTimes="0.0000;0.2000;0.2814;0.3560;0.3860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
-<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="355.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#r1)">Open Source @ Apache Fineract &amp; Mifos</text>
+<animate attributeName="width" values="0.0;0.0;240.0;240.0;0.0;0.0" keyTimes="0.0000;0.2000;0.2550;0.3560;0.3860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="240.0" lengthAdjust="spacingAndGlyphs" clip-path="url(#r1)">Angular Frontend Engineer</text>
 <rect x="60" y="134" width="9" height="18" fill="#39d353" opacity="0">
-<animate attributeName="x" values="60.0;60.0;415.2;415.2;60.0;60.0" keyTimes="0.0000;0.2000;0.2814;0.3560;0.3860;1.0000" dur="25.0s" repeatCount="indefinite"/>
+<animate attributeName="x" values="60.0;60.0;300.0;300.0;60.0;60.0" keyTimes="0.0000;0.2000;0.2550;0.3560;0.3860;1.0000" dur="25.0s" repeatCount="indefinite"/>
 <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.2000;0.3860;0.3861;1" dur="25.0s" repeatCount="indefinite" calcMode="discrete"/>
 </rect>
 <clipPath id="r2"><rect x="60" y="132" width="0" height="22">
 <animate attributeName="width" values="0.0;0.0;355.2;355.2;0.0;0.0" keyTimes="0.0000;0.4000;0.4814;0.5560;0.5860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
-<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="355.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#r2)">Java Spring Boot &amp; Angular Specialist</text>
+<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="355.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#r2)">Open Source @ Apache Fineract &amp; Mifos</text>
 <rect x="60" y="134" width="9" height="18" fill="#39d353" opacity="0">
 <animate attributeName="x" values="60.0;60.0;415.2;415.2;60.0;60.0" keyTimes="0.0000;0.4000;0.4814;0.5560;0.5860;1.0000" dur="25.0s" repeatCount="indefinite"/>
 <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.4000;0.5860;0.5861;1" dur="25.0s" repeatCount="indefinite" calcMode="discrete"/>
 </rect>
 <clipPath id="r3"><rect x="60" y="132" width="0" height="22">
-<animate attributeName="width" values="0.0;0.0;345.6;345.6;0.0;0.0" keyTimes="0.0000;0.6000;0.6792;0.7560;0.7860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
-<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="345.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#r3)">Applied Software Solutions @ FCAI-CU</text>
+<animate attributeName="width" values="0.0;0.0;326.4;326.4;0.0;0.0" keyTimes="0.0000;0.6000;0.6748;0.7560;0.7860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="326.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#r3)">Enterprise Systems &amp; Microservices</text>
 <rect x="60" y="134" width="9" height="18" fill="#39d353" opacity="0">
-<animate attributeName="x" values="60.0;60.0;405.6;405.6;60.0;60.0" keyTimes="0.0000;0.6000;0.6792;0.7560;0.7860;1.0000" dur="25.0s" repeatCount="indefinite"/>
+<animate attributeName="x" values="60.0;60.0;386.4;386.4;60.0;60.0" keyTimes="0.0000;0.6000;0.6748;0.7560;0.7860;1.0000" dur="25.0s" repeatCount="indefinite"/>
 <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.6000;0.7860;0.7861;1" dur="25.0s" repeatCount="indefinite" calcMode="discrete"/>
 </rect>
 <clipPath id="r4"><rect x="60" y="132" width="0" height="22">
-<animate attributeName="width" values="0.0;0.0;307.2;307.2;0.0;0.0" keyTimes="0.0000;0.8000;0.8704;0.9560;0.9860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
-<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="307.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#r4)">Modern C++ &amp; Distributed Systems</text>
+<animate attributeName="width" values="0.0;0.0;364.8;364.8;0.0;0.0" keyTimes="0.0000;0.8000;0.8836;0.9560;0.9860;1.0000" dur="25.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="60" y="148" font-size="16" fill="#c9d1d9" textLength="364.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#r4)">Modern C++ &amp; Distributed Architectures</text>
 <rect x="60" y="134" width="9" height="18" fill="#39d353" opacity="0">
-<animate attributeName="x" values="60.0;60.0;367.2;367.2;60.0;60.0" keyTimes="0.0000;0.8000;0.8704;0.9560;0.9860;1.0000" dur="25.0s" repeatCount="indefinite"/>
+<animate attributeName="x" values="60.0;60.0;424.8;424.8;60.0;60.0" keyTimes="0.0000;0.8000;0.8836;0.9560;0.9860;1.0000" dur="25.0s" repeatCount="indefinite"/>
 <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.8000;0.9860;0.9861;1" dur="25.0s" repeatCount="indefinite" calcMode="discrete"/>
 </rect></g>
 <g class="fade" style="animation-delay:1.9s">
-  <text x="40" y="182" font-size="13" fill="#8b949e">Cairo, EG  ·  Java, Angular, C++ &amp; Open Source Fintech Systems</text>
+  <text x="40" y="182" font-size="13" fill="#8b949e">Cairo, EG  ·  Java Spring Boot &amp; Angular Specialist</text>
 </g>
 
 </svg>

@@ -1,10 +1,10 @@
 """source-avatar.jpg / source-prepped.png -> ascii-portrait.svg:
-rows wipe in with a block cursor, then a slow iridescent shimmer."""
+rows wipe in with a block cursor, then a green matrix phosphor shimmer."""
 import os
 import numpy as np
 from PIL import Image
 
-from common import CYAN, GREEN, PURPLE, ROOT, esc, window, write_svg
+from common import GREEN, ROOT, esc, window, write_svg
 
 W, H = 370, 420
 RAMP = " .`:-=+*cs#%@"  # dark (sparse) -> bright (dense)
@@ -23,7 +23,6 @@ def main():
     elif os.path.exists(avatar_path):
         img = Image.open(avatar_path).convert("L")
     else:
-        # Fallback to local source image or dummy
         img = Image.new("L", (288, 288), color=128)
 
     w, h = img.size
@@ -59,10 +58,11 @@ def main():
         )
 
     shimmer = 0.3 + rows * 0.045 + 0.6
+    # Matrix phosphor green shimmer, no purple
     defs = f"""
 <linearGradient id="ink" x1="0" y1="0" x2="{W}" y2="{H}" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
-  <stop offset="0" stop-color="{GREEN}"/><stop offset="0.5" stop-color="{CYAN}"/><stop offset="1" stop-color="{PURPLE}"/>
-  <animateTransform attributeName="gradientTransform" type="translate" values="0 0;{W} {H};0 0" begin="{shimmer:.2f}s" dur="10s" repeatCount="indefinite"/>
+  <stop offset="0" stop-color="#39d353"/><stop offset="0.5" stop-color="#69f0a0"/><stop offset="1" stop-color="#26a641"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="0 0;{W} {H};0 0" begin="{shimmer:.2f}s" dur="8s" repeatCount="indefinite"/>
 </linearGradient>"""
     body = f"""
 <g fill="url(#ink)" font-size="{FONT}">{''.join(out)}</g>"""
