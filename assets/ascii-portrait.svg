@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 320" width="370" height="320">
+  <defs>
+    <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3CB371" stop-opacity="0" />
+      <stop offset="50%" stop-color="#3CB371" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#3CB371" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="portraitBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30363D" />
+      <stop offset="50%" stop-color="#3CB371" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#30363D" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect width="370" height="320" rx="12" fill="#0D1117" stroke="url(#portraitBorder)" stroke-width="1.2" />
+
+  <!-- Terminal Header -->
+  <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 358 0 C 364.63 0 370 5.37 370 12 L 370 36 L 0 36 Z" fill="#161B22" />
+  <line x1="0" y1="36" x2="370" y2="36" stroke="#30363D" stroke-width="1" />
+
+  <!-- Window controls -->
+  <circle cx="20" cy="18" r="4.5" fill="#FF5F56" />
+  <circle cx="34" cy="18" r="4.5" fill="#FFBD2E" />
+  <circle cx="48" cy="18" r="4.5" fill="#27C93F" />
+
+  <text x="185" y="22" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="11" fill="#8B949E" text-anchor="middle" font-weight="600">eyad@fcai-cu:~ (ascii-portrait)</text>
+
+  <!-- Animated Scanline -->
+  <rect x="0" y="37" width="370" height="60" fill="url(#scanlineGrad)">
+    <animate attributeName="y" values="36;260;36" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- ASCII Art Body -->
+  <text font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10.8" fill="#3CB371" font-weight="600">
+      <tspan x="185" y="68.0" text-anchor="middle" opacity="0.75">               .:::.               </tspan>
+      <tspan x="185" y="80.2" text-anchor="middle" opacity="0.75">            .:::::::::.            </tspan>
+      <tspan x="185" y="92.4" text-anchor="middle" opacity="0.75">          .:::^~^:::^~^:::.        </tspan>
+      <tspan x="185" y="104.6" text-anchor="middle" opacity="0.75">         .:::::       :::::.       </tspan>
+      <tspan x="185" y="116.8" text-anchor="middle" opacity="0.95">        .:::::  #   #  :::::.      </tspan>
+      <tspan x="185" y="129.0" text-anchor="middle" opacity="0.95">        ::::::  ====   ::::::      </tspan>
+      <tspan x="185" y="141.2" text-anchor="middle" opacity="0.95">        ::::::   ---   ::::::      </tspan>
+      <tspan x="185" y="153.4" text-anchor="middle" opacity="0.75">        ':::::.       .:::::'      </tspan>
+      <tspan x="185" y="165.6" text-anchor="middle" opacity="0.75">         '::::::.....::::::'       </tspan>
+      <tspan x="185" y="177.8" text-anchor="middle" opacity="0.75">          `:::::::::::::::´        </tspan>
+      <tspan x="185" y="190.0" text-anchor="middle" opacity="0.75">       .---`:::::::::::::´---.     </tspan>
+      <tspan x="185" y="202.2" text-anchor="middle" opacity="0.75">     /`     `:::::::::::´     `\\   </tspan>
+      <tspan x="185" y="214.4" text-anchor="middle" opacity="0.95">    /   [E]   `:::::::`   [S]   \\  </tspan>
+      <tspan x="185" y="226.6" text-anchor="middle" opacity="0.95">   |    Java   |     |  Angular  | </tspan>
+      <tspan x="185" y="238.8" text-anchor="middle" opacity="0.95">   |    C++    | === |   Docker  | </tspan>
+      <tspan x="185" y="251.0" text-anchor="middle" opacity="0.75">   |           |_____|           | </tspan>
+      <tspan x="185" y="263.2" text-anchor="middle" opacity="0.75">   |_____________________________| </tspan>
+      <tspan x="185" y="275.4" text-anchor="middle" opacity="0.75">      |                       |    </tspan>
+      <tspan x="185" y="287.6" text-anchor="middle" opacity="0.95">      |  DEV // EYAD SHARKAWY |    </tspan>
+      <tspan x="185" y="299.8" text-anchor="middle" opacity="0.75">      |_______________________|    </tspan>
+  </text>
+
+  <!-- Blinking Cursor -->
+  <rect x="295" y="293" width="7" height="12" fill="#3CB371">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </rect>
+</svg>
