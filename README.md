@@ -36,7 +36,7 @@ Currently studying at **FCAI-CU**, I focus heavily on the **Applied Software Sol
 
 ---
 
-### 🌐 Open Source Contributions
+### Open Source Contributions
 
 <div align="center">
 
@@ -51,7 +51,7 @@ Currently studying at **FCAI-CU**, I focus heavily on the **Applied Software Sol
 
 ---
 
-### 🚀 Highlighted Systems & Projects
+### Highlighted Systems & Projects
 
 - **[Agency OS](https://github.com/Agnecy-OS)** — Comprehensive enterprise management platform built for modern digital agencies with multi-tenant architecture.
 - **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)** — High-performance synchronization engine engineered with modern C++ and distributed design principles.
@@ -60,7 +60,7 @@ Currently studying at **FCAI-CU**, I focus heavily on the **Applied Software Sol
 
 ---
 
-### 📬 Connect With Me
+### Connect With Me
 
 <div align="left">
 
