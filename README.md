@@ -6,14 +6,14 @@
 
 <div align="center">
 
-<img src="./assets/header.svg" width="860" alt="Eyad Sharkawy — Full-Stack Software Developer from Cairo" />
+<img src="./header.svg" width="860" alt="Eyad Sharkawy — Full-Stack Software Developer & Open Source Contributor" />
 
 <br><br>
 
 <table>
   <tr>
-    <td valign="top"><img src="./assets/ascii-portrait.svg" width="370" alt="ASCII portrait of Eyad Sharkawy" /></td>
-    <td valign="top"><img src="./assets/info-card.svg" width="490" alt="Neofetch-style card: role, FCAI-CU, stack, and live Apache Fineract & Mifos PR stats" /></td>
+    <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="ASCII portrait of Eyad Sharkawy" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch card: role, stack, live GitHub and Apache Fineract stats" /></td>
   </tr>
 </table>
 
@@ -21,8 +21,8 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./assets/globe.svg" width="430" alt="3D globe with contribution arcs from Cairo to open-source ecosystems" /></td>
-    <td valign="top"><img src="./assets/tech-sphere.svg" width="430" alt="Tech stack on a 3D sphere" /></td>
+    <td valign="top"><img src="./globe.svg" width="430" alt="Rotating 3D globe with contribution arcs from Cairo to open-source ecosystems" /></td>
+    <td valign="top"><img src="./tech-sphere.svg" width="430" alt="Tech stack on a rotating 3D sphere" /></td>
   </tr>
 </table>
 
@@ -32,33 +32,53 @@
 
 I am a Full-Stack Developer specializing in enterprise and modern web applications using **Java Spring Boot** and **Angular**, alongside a strong foundation in modern **C++**.
 
-Currently studying at **FCAI-CU**, I focus heavily on the **Applied Software Solutions** track—building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions, while actively contributing to open-source fintech ecosystems like **[Apache Fineract](https://github.com/apache/fineract)** and **[Mifos](https://github.com/openMF/web-app)**.
+Currently studying at **FCAI-CU**, I focus heavily on the **Applied Software Solutions** track—building scalable, multi-tenant architectures, containerized infrastructure, and seamlessly integrated AI solutions, while actively contributing to open-source fintech ecosystems like **[Apache Fineract](https://github.com/apache/fineract)** and **[Mifos](https://github.com/openMF/web-app)**. I've also collaborated on award-winning tech competitions and developed tools like **[Agency OS](https://github.com/Agnecy-OS)**, **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)**, **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)**, and **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)**.
 
 ---
 
-### 🚀 Highlighted Systems & Engineering Work
+### 🌐 Open Source Contributions
 
-- **Enterprise & Architecture:** Built **[Agency OS](https://github.com/Agnecy-OS)** and **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)** with an emphasis on resilient data flow and multi-tenant architectures.
-- **Full-Stack & AI Platforms:** Collaborated on **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)** and **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)**, in addition to award-winning tech competition projects.
-- **Fintech Open Source:** Shipped merged contributions to **[Apache Fineract](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)** and **[Mifos](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)** core repositories.
+<div align="center">
+
+[![Apache Fineract PRs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3Aapache%2Ffineract%2Bauthor%3AEyad-Sharkawy%2Bis%3Apr%2Bis%3Amerged&query=%24.total_count&suffix=%20PRs%20Merged&label=Apache%20Fineract&style=for-the-badge&logo=apache&logoColor=FFFFFF&labelColor=161B22&color=39D353)](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
+&nbsp;&nbsp;
+[![Mifos PRs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dorg%3AopenMF%2Bauthor%3AEyad-Sharkawy%2Bis%3Apr%2Bis%3Amerged&query=%24.total_count&suffix=%20PRs%20Merged&label=Mifos%20Initiative&style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=161B22&color=58D5E8)](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
+
+</div>
+
+- **[Apache Fineract](https://github.com/apache/fineract)** — An open-source, enterprise system for core banking as an OS. Contributing backend enhancements, bug fixes, and architectural optimizations in **Java Spring Boot**. [View Merged Pull Requests →](https://github.com/search?q=repo:apache/fineract+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
+- **[Mifos Initiative](https://github.com/openMF/web-app)** — Global financial inclusion initiative powering microfinance institutions worldwide. Shipping enterprise **Angular** & **TypeScript** frontend features. [View Merged Pull Requests →](https://github.com/search?q=org:openMF+author:Eyad-Sharkawy+is:pr+is:merged&type=pullrequests)
 
 ---
 
-### 🌐 Connect With Me
+### 🚀 Highlighted Systems & Projects
+
+- **[Agency OS](https://github.com/Agnecy-OS)** — Comprehensive enterprise management platform built for modern digital agencies with multi-tenant architecture.
+- **[Omni Sync](https://github.com/Eyad-Sharkawy/omni-sync)** — High-performance synchronization engine engineered with modern C++ and distributed design principles.
+- **[The Phoenix Project](https://github.com/orgs/The-Phoenix-Project-Depi/repositories)** — Collaborative full-stack ecosystem platform leveraging modern cloud and container workflows.
+- **[Photo Smith](https://github.com/Eyad-Sharkawy/Photo-Smith)** — Image processing and manipulation desktop suite developed with clean software design patterns.
+
+---
+
+### 📬 Connect With Me
+
+<div align="left">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eyad-sharkawy)
 [![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eyad.m.sharkawy@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-3CB371?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/119U5JxAOElG2W3uVJhj8AwkHuH7Y5_GD/view)
+[![Resume](https://img.shields.io/badge/Resume-39D353?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/119U5JxAOElG2W3uVJhj8AwkHuH7Y5_GD/view)
+
+</div>
 
 <div align="center">
 
 <br>
 
-<img src="./assets/contrib-skyline.svg" width="860" alt="Isometric 3D skyline of the last year of contributions" />
+<img src="./contrib-skyline.svg" width="860" alt="Isometric 3D skyline of the last year of contributions" />
 
 <br><br>
 
-<img src="./assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap for the last year" />
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap for the last year" />
 
 <br><br>
 

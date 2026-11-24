@@ -1,0 +1,24 @@
+{
+  "name": "Eyad Sharkawy",
+  "created_at": "2024-09-07T10:27:22Z",
+  "public_repos": 23,
+  "followers": 11,
+  "stars": 2,
+  "languages": {
+    "C++": 877490,
+    "TypeScript": 566296,
+    "HTML": 418968,
+    "JavaScript": 304652,
+    "CSS": 228258,
+    "SCSS": 187150,
+    "Python": 78872,
+    "C": 55804,
+    "Java": 52000,
+    "CMake": 39140,
+    "Batchfile": 24476,
+    "PowerShell": 8210,
+    "QMake": 2648
+  },
+  "fineract_prs": 4,
+  "mifos_prs": 2
+}
